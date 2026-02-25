@@ -28,6 +28,15 @@ h4{
     padding: 0px;
     position: relative;
 }
+.table td h4 {
+    position: absolute;
+    margin-top: 20px;
+    top: 10px;
+    left: 0;
+    right: 0;
+    color: black;
+    font-weight: bold;
+}
 .table td::before{
     content:"";
     display: block;
